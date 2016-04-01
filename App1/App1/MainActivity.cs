@@ -25,6 +25,7 @@ namespace App1
             Button button = FindViewById<Button>(Resource.Id.MyButton);
             // lol change
             // new line
+            // another new line
             button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
         }
     }
